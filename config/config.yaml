@@ -1,0 +1,24 @@
+# Data Pipeline Configuration Schema
+
+pipeline:
+  name: "Life Sciences Commercial Analytics Engine"
+  version: "1.0.0"
+
+data_paths:
+  local_fallback_path: "data/raw/Medicare Part D Prescribers - by Geography and Drug/2024/MUP_DPR_RY26_P04_V10_DY24_Geo.csv"
+  processed_output_path: "data/processed/processed_insights.csv"
+
+api_config:
+  # Base endpoint for CMS Socrata Open Data API
+  endpoint_url: "https://data.cms.gov/data-api/v1/dataset/c8ea3f8e-3a09-4fea-86f2-8902fb4b0920/data"
+  # Socrata API default row limit per request
+  default_limit: 5000
+
+cms_schema:
+  geo_level: "Prscrbr_Geo_Lvl"
+  geo_description: "Prscrbr_Geo_Desc"
+  brand_name: "Brnd_Name"
+  generic_name: "Gnrc_Name"
+  total_claims: "Tot_Clms"
+  total_cost: "Tot_Drug_Cst"
+  total_patients: "Tot_Benes"
