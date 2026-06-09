@@ -77,7 +77,7 @@ By bridging the gap between rigorous mathematical modeling and corporate strateg
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com
+git clone https://github.com/anupgp/pharma_analytics_engagement.git
 cd pharma_analytics_engagement
 pip install pandas numpy pyyaml jupyter
 ```
