@@ -10,7 +10,8 @@ data_paths:
 
 api_config:
   # Base endpoint for CMS Socrata Open Data API
-  endpoint_url: "https://data.cms.gov/data-api/v1/dataset/c8ea3f8e-3a09-4fea-86f2-8902fb4b0920/data"
+  # endpoint_url: "https://data.cms.gov/data-api/v1/dataset/c8ea3f8e-3a09-4fea-86f2-8902fb4b0920/data"
+  endpoint_url: "https://data.cms.gov/"
   # Socrata API default row limit per request
   default_limit: 5000
 
