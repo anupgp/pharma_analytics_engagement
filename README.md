@@ -78,7 +78,7 @@ By bridging the gap between rigorous mathematical modeling and corporate strateg
 Clone the repository and install dependencies:
 ```bash
 git clone https://github.com
-cd YOUR-REPO-NAME
+cd pharma_analytics_engagement
 pip install pandas numpy pyyaml jupyter
 ```
 
