@@ -4,17 +4,35 @@
 [![Python: 3.9+](https://shields.io)](https://python.org)
 
 ## 🎯 Project Overview
-This repository showcases an end-to-end data science and engineering architecture tailored specifically for the global life sciences sector. Built to mirror a high-velocity, **4–12 week agile analytics engagement**, this project demonstrates how to transform raw, complex commercial health transactions into scalable, high-signal strategic insights that optimize **Brand Strategy, Patient Analytics, and Sales Operations**.
+This repository presents an end-to-end data science and engineering architecture tailored to the global life sciences industry.
 
-By bridging the gap between rigorous mathematical modeling and corporate strategy, this decoupled pipeline provides global pharmaceutical leaders with the actionable narratives required to improve patient access to therapies and maximize operational efficiency.
+Designed to emulate a **4–12 week agile analytics engagement**, the project demonstrates how raw, complex healthcare commercial data can be transformed into scalable, high-signal strategic insights that support **Brand Strategy, Patient Analytics, and Sales Operations**.
+
+I plan to continue developing this project to further bridge the gap between rigorous mathematical modeling and business strategy. The ultimate goal is to provide global pharmaceutical leaders with actionable narratives that improve patient access to therapies while maximizing operational efficiency.
+
+All data used in this project comes from the [Centers for Medicare & Medicaid Services (CMS)](https://data.cms.gov/provider-s\
+ummary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug), a U.S. government organization that provides open-access healthcare data for public use. Specifically, this project utilizes publicly available Medicare Part D prescribing data published through the CMS Open Data platform.
 
 ---
 
 ## 🏗️ Project Architecture & Hierarchy
 
+
 ```text
 ├── config
 │   └── config.yaml                 # Centralized business logic and schema parameters
+├── data
+│   ├── processed
+│   └── raw
+│       └── Medicare Part D Prescribers - by Geography and Drug
+│           └── 2024
+│               ├── MUP_DPR_RY25_20250401_DD_Geo_508.pdf
+│               ├── MUP_DPR_RY26_20260421_Methodology_508.pdf
+│               ├── MUP_DPR_RY26_P04_V10_DY24_Geo.csv
+│               ├── MUP_DPR_RY26_P06_V10_DYT24_DLSum.xlsx
+│               └── MUP_DPR_RY26_P06_V10_DYT24_HLSum.xlsx
+├── figures
+│   └── Therapeutic_brand_market_share_estradiol_indiana.png
 ├── notebooks
 │   └── exploratory_analysis.ipynb  # Executive workspace & pipeline simulation
 ├── README.md                       # Strategic overview & documentation
@@ -56,19 +74,19 @@ By bridging the gap between rigorous mathematical modeling and corporate strateg
 
 ### 🛠️ 1. Real-World Data Mapping & Value Translation (`src/data_ingestion.py`)
 *   **The Blueprint:** Reconciles disparate, messy commercial events—such as structured **pharmacy claims, longitudinal patient data, and prescriber trends**—into unified analytics schemas.
-*   **The Value:** Converts complex data realities into clear, intuitive metrics while filtering out transactional noise (such as negative day-supply entries or duplicate reversals) to preserve pure business signals.
+*   **The Value:** Converts complex healthcare transaction data into interpretable analytical metrics while filtering data quality issues (such as negative day-supply values or duplicate claim reversals) to preserve meaningful business signals.
 
 ### 📐 2. Patient-Centric Analytics Framework (`src/patient_analytics.py`)
 *   **The Blueprint:** Tracks the longitudinal patient journey by calculating the industry-standard **Medication Possession Ratio (MPR)** to monitor patient compliance over specific therapy windows.
-*   **The Value:** Categorizes patient groups into structured compliance cohorts, highlighting drop-off risks and identifying patient access bottlenecks for commercial brand teams.
+*   **The Value:** Segments patients into adherence cohorts to identify discontinuation risk, therapy gaps, and potential barriers to treatment access.
 
 ### 💼 3. Sales Operations & Market Dynamics (`src/sales_ops.py`)
 *   **The Blueprint:** Aggregates multi-brand transactional volumes across complex provider networks to derive relative regional market shares.
 *   **The Value:** Provides corporate field teams with clear targeting frameworks by mapping physician prescribing behaviors directly to territory sales strategies.
 
 ### 🚀 4. Scalable Infrastructure & Configuration (`config/config.yaml`)
-*   **The Blueprint:** Segregates engineering code from changing financial boundaries by implementing a yaml-driven parameter core.
-*   **The Value:** Allows non-engineering consultants to dynamically modify critical rules—such as adherence threshold barriers or timeline boundaries—without changing underlying python systems.
+*   **The Blueprint:** Separates business rules from application logic through a YAML-based configuration framework.
+*   **The Value:** Enables analysts and consultants to modify business parameters—such as adherence thresholds and analysis windows—without modifying the underlying Python codebase.
 
 ---
 
