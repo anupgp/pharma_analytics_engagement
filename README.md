@@ -130,14 +130,13 @@ The unbranded generic variant **`Estradiol` dominates the market with nearly 80%
 ### 2. High-Value Differentiated Formulations
 Once-weekly and twice-weekly Estradiol formulations collectively account for approximately 12% of total prescription volume, suggesting that dosing convenience or formulation-specific preferences may contribute to continued utilization despite strong generic competition.
 
-**Evidence**
-
-Market Share:
-Generic Estradiol: 79.8%
-Estradiol Weekly: 5.5%
-Estradiol Twice Weekly: 6.2%
-Yuvafem: 4.5%
-Dotti: 1.2%
+| Drug | Market Share (%) |
+|-------|------------------|
+| Estradiol | 79.8 |
+| Estradiol (Twice Weekly) | 6.2 |
+| Estradiol (Once Weekly) | 5.5 |
+| Yuvafem | 4.5 |
+| Dotti | 1.2 |
 
 ### 3. Isolated Niche Branded Footprints
 Brands like **`Yuvafem`** (Approx. 4.5% market share) and **`Dotti`** (Approx. 1.2% market share) maintain smaller but measurable market shares. Further geographic and provider-level analyses could help determine whether these products derive their volume from specific prescriber segments, regional preferences, or differentiated clinical positioning.
