@@ -108,7 +108,7 @@ This notebook initializes the `MedicalDataIngestor`, cleans raw transactional no
 
 ### 3. 📈 Market Intelligence Report: Estradiol Therapeutic Class Analysis
 
-This case study demonstrates the capability of the **Life Sciences Commercial Analytics Engine** to ingest massive, un-sampled federal longitudinal datasets and extract actionable commercial narratives. 
+This case study demonstrates how the Life Sciences Commercial Analytics Engine processes longitudinal CMS prescribing data to identify prescribing patterns, market concentration, and commercial trends within a therapeutic class.
 
 Below is an evaluation of the **Estradiol** (hormone therapy) molecular class market dynamics, generated dynamically via our interactive Bokeh pipeline.
 
@@ -125,15 +125,22 @@ Below is an evaluation of the **Estradiol** (hormone therapy) molecular class ma
 Analyzing the relative market share distribution reveals a classic life sciences product lifecycle narrative:
 
 ### 1. The Generic Erosion Cliff
-The unbranded generic variant **`Estradiol` dominates the market with nearly 80% relative market share**. This indicates a highly mature therapeutic category where aggressive price-matching and insurance payer preferences have effectively commoditized standard formulations, severely eroding legacy brands like *Climara*, *Divigel*, and *Estrace*.
+The unbranded generic variant **`Estradiol` dominates the market with nearly 80% relative market share**. The high market share of generic Estradiol suggests a mature therapeutic category in which generic formulations account for the majority of prescription volume. Additional pricing and payer data would be required to determine the specific drivers of generic adoption.
 
 ### 2. High-Value Differentiated Formulations
-Despite massive generic erosion, specialized branded variations manage to maintain a resilient commercial foothold:
-*   **`Estradiol (Once Weekly)`** (Approx. 5.5% market share)
-*   **`Estradiol (Twice Weekly)`** (Approx. 6.2% market share)
+Once-weekly and twice-weekly Estradiol formulations collectively account for approximately 12% of total prescription volume, suggesting that dosing convenience or formulation-specific preferences may contribute to continued utilization despite strong generic competition.
+
+**Evidence**
+
+Market Share:
+Generic Estradiol: 79.8%
+Estradiol Weekly: 5.5%
+Estradiol Twice Weekly: 6.2%
+Yuvafem: 4.5%
+Dotti: 1.2%
 
 ### 3. Isolated Niche Branded Footprints
-Brands like **`Yuvafem`** (Approx. 4.5% market share) and **`Dotti`** (Approx. 1.2% market share) continue to capture narrow segments. This suggests targeted territory sales alignment or specific institutional hospital formularies where these niche products are actively insulated from open market competition.
+Brands like **`Yuvafem`** (Approx. 4.5% market share) and **`Dotti`** (Approx. 1.2% market share) maintain smaller but measurable market shares. Further geographic and provider-level analyses could help determine whether these products derive their volume from specific prescriber segments, regional preferences, or differentiated clinical positioning.
 
 ---
 
