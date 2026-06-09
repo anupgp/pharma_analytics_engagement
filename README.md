@@ -101,8 +101,6 @@ Below is an evaluation of the **Estradiol** (hormone therapy) molecular class ma
 
 ![Estradiol Market Share Split](https://github.com/anupgp/pharma_analytics_engagement/blob/main/figures/Therapeutic_brand_market_share_estradiol_indiana.png)
 
-*(Note: To display your image here, save your graph image inside your repository as `notebooks/estradiol_chart.png`, push it to GitHub, and replace the URL path above with your exact repository link).*
-
 ---
 
 ## 💡 Key Commercial Insights & Brand Strategy
