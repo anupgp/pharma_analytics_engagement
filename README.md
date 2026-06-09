@@ -10,8 +10,7 @@ Designed to emulate a **4–12 week agile analytics engagement**, the project de
 
 I plan to continue developing this project to further bridge the gap between rigorous mathematical modeling and business strategy. The ultimate goal is to provide global pharmaceutical leaders with actionable narratives that improve patient access to therapies while maximizing operational efficiency.
 
-All data used in this project comes from the [Centers for Medicare & Medicaid Services \(CMS\)](https://data.cms.gov/provider-s\
-ummary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug), a U.S. government organization that provides open-access healthcare data for public use. Specifically, this project utilizes publicly available Medicare Part D prescribing data published through the CMS Open Data platform.
+All data used in this project comes from the [Centers for Medicare & Medicaid Services \(CMS\)](https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/medicare-part-d-prescribers-by-geography-and-drug), a U.S. government organization that provides open-access healthcare data for public use. Specifically, this project utilizes publicly available Medicare Part D prescribing data published through the CMS Open Data platform.
 
 ---
 
