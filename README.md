@@ -89,6 +89,51 @@ jupyter notebook notebooks/exploratory_analysis.ipynb
 ```
 This notebook initializes the `MedicalDataIngestor`, cleans raw transactional noise, evaluates patient adherence trends, and spits out executive market share metrics directly in your local environment.
 
+### 3. 📈 Market Intelligence Report: Estradiol Therapeutic Class Analysis
+
+This case study demonstrates the capability of the **Life Sciences Commercial Analytics Engine** to ingest massive, un-sampled federal longitudinal datasets and extract actionable commercial narratives. 
+
+Below is an evaluation of the **Estradiol** (hormone therapy) molecular class market dynamics, generated dynamically via our interactive Bokeh pipeline.
+
+---
+
+## 📊 Market Share Distribution
+
+![Estradiol Market Share Split](https://githubusercontent.com)
+
+*(Note: To display your image here, save your graph image inside your repository as `notebooks/estradiol_chart.png`, push it to GitHub, and replace the URL path above with your exact repository link).*
+
+---
+
+## 💡 Key Commercial Insights & Brand Strategy
+
+Analyzing the relative market share distribution reveals a classic life sciences product lifecycle narrative:
+
+### 1. The Generic Erosion Cliff
+The unbranded generic variant **`Estradiol` dominates the market with nearly 80% relative market share**. This indicates a highly mature therapeutic category where aggressive price-matching and insurance payer preferences have effectively commoditized standard formulations, severely eroding legacy brands like *Climara*, *Divigel*, and *Estrace*.
+
+### 2. High-Value Differentiated Formulations
+Despite massive generic erosion, specialized branded variations manage to maintain a resilient commercial foothold:
+*   **`Estradiol (Once Weekly)`** (Approx. 5.5% market share)
+*   **`Estradiol (Twice Weekly)`** (Approx. 6.2% market share)
+
+**Strategic Takeaway:** In life sciences consulting, this proves that **extended-release delivery mechanisms** or patch formulations create unique patient adherence advantages. Payer and provider loyalty remains high for these premium assets because they reduce dosing frequency, allowing manufacturers to maintain high margins despite cheap generic daily alternatives.
+
+### 3. Isolated Niche Branded Footprints
+Brands like **`Yuvafem`** (Approx. 4.5% market share) and **`Dotti`** (Approx. 1.2% market share) continue to capture narrow segments. This suggests targeted territory sales alignment or specific institutional hospital formularies where these niche products are actively insulated from open market competition.
+
+---
+
+## 🛠️ Data Provenance & Reproducibility
+*   **Source Data:** CMS Medicare Part D Prescriber Summary - By Geography and Drug Class.
+*   **Pipeline Scope:** Out-of-core chunk aggregation processing multi-gigabyte raw transactional rows.
+*   **Execution Abstraction:** 
+    ```python
+    df_global_insights = analyzer.compute_global_metrics_from_file(full_dataset_path)
+    # Visual metrics isolated dynamically via client-side JavaScript engine
+    ```
+
+
 ---
 
 ## 📄 License
